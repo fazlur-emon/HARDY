@@ -1,0 +1,268 @@
+@media(max-width:1199px){
+    .left-cont h1 {
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 50px;
+       
+    }  
+    .head-cont h2 {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .head-cont p {
+        width: 85%;
+        margin: auto;
+    }
+    .sale-info h6 span i{
+        padding: 5px 5px;
+    }
+    .btn-learn{
+        padding: 5px 20px
+    }
+    .team h4 {
+        font-weight: 600;
+        padding: 15px 0px;
+        color: #F75335;
+        font-size: 22px;
+    }
+    .team i {
+        font-size: 20px;
+    }
+    input {
+        background: transparent !important;
+        width: !important;
+        padding: 10px 5px;
+        border: none;
+        border: 1px solid #F75335;
+        border-radius: 3px;
+        width: 60%;
+    }
+}
+@media(max-width:991px){
+    .btn-quote{
+        padding: 10px 18px;
+    }
+    .count h6 {
+        margin-right: 15px;
+    }
+    .infos p {
+        width: 100%;
+    }
+    .infos h3 {
+        font-weight: 700;
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+    }
+    .top:hover {
+        display: block;
+        margin-right: 50px;
+        transition: .4s all ease-in-out;
+    }    
+    .head-cont p {
+        width: 100%;
+        margin: auto;
+    }
+    .box {
+        padding: 10px 20px;
+        box-shadow: 0px 13px 19px rgb(0 0 0 / 7%);
+    }
+    .sale-info h6 {
+        color: #F75335;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .sale-info h4 span {
+        color: #26335D;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .sale-info h4{
+        font-size: 16px !important;
+    }
+    .btn-learn {
+        background: transparent;
+        border: none;
+        border: 1px solid #F75335;
+        padding: 17px -1px;
+        border-radius: 30px;
+        color: #F75335;
+        font-weight: 600;
+        margin: 5px 0px;
+        font-size: 12px;
+    }
+    .clients p {
+        width: 80%;
+        margin: auto;
+        padding: 15px 0px;
+    }
+    .team h4 {
+        font-weight: 600;
+        padding: 6px 0px;
+        color: #F75335;
+        font-size: 18px;
+    }
+    .top {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px 0px;
+    }
+    input {
+        background: transparent !important;
+        width: !important;
+        padding: 10px 5px;
+        border: none;
+        border: 1px solid #F75335;
+        border-radius: 3px;
+        width: 100%;
+    }
+    input[type="submit"] {
+        width: inherit !important;
+        background: transparent !important;
+        width: inherit !important;
+        background: #F75335 !important;
+        padding: 5px 5px;
+        border: none;
+        border: 1px solid #F75335;
+        color: white;
+        margin-top: 15px;
+    }
+        
+}
+@media(max-width:767px){
+    .left-cont {
+        color: white;
+        text-align: center;
+    }
+    .advice-img img {
+        width: 71%;
+        margin: auto;
+        /* text-align: center; */
+    }
+    .advice-img{
+        text-align: center;
+    }
+    .box span {
+        display: inline-block;
+        height: 3px;
+        width: 80px;
+        background: #F75335;
+        margin: 15px 0px;
+    }
+    .box{
+        text-align: center;
+    }
+    .sale-img img {
+        width: 65%;
+        margin: auto;
+    }
+    .sale-img {
+        text-align: center;
+    }
+    .sale-img::before {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        height: 00%;
+        width: 65%;
+        background-color: #FF6551;
+        opacity: .5;
+        /* overflow: hidden; */
+    }
+    .sale-info {
+        text-align: center;
+    }
+    .team-img img {
+        width: 50%;
+        border-radius: 20px;
+    }
+    .right-cont img {
+        width: 60%;
+        margin: auto;
+    }
+    .right-cont{
+        text-align: center;
+    }
+
+}
+@media(max-width:575px){
+    
+}
+@media(max-width:425px){
+    .head-cont h2 {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .head-cont p {
+        width: 100%;
+        margin: auto;
+        font-size: 12px;
+    }
+    .advice-info h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .head-cont h4 {
+        color: #FF6551;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .team i {
+        font-size: 15px;
+    }
+}
+@media(max-width:320px){
+    .team h4 {
+        font-weight: 600;
+        padding: 6px 0px;
+        color: #F75335;
+        font-size: 15px;
+    }
+    .team h6 {
+        font-size: 12px;
+    }
+    .f-info h5 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .f-info p {
+        cursor: pointer;
+        font-size: 12px;
+        padding: 0;
+        margin: 0px;
+    }
+    .clients p {
+        width: 80%;
+        margin: auto;
+        padding: 15px 0px;
+        font-size: 13px;
+    }
+    .clients p {
+        width: 80%;
+        margin: auto;
+        padding: 15px 0px;
+        font-size: 13px;
+    }
+    .std-info h2{
+        margin: 0;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .head-cont h2 {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 38px;
+    }
+}
